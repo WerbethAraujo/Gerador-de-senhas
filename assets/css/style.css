@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom, #ab84a4, #323c58, #03253f);
+  height: 100vh;
+}
+.container {
+  background: #284259;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  margin: 50px auto;
+  max-width: 450px;
+  border-radius: 10px;
+}
+.container h1 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #bf9d7e;
+  padding: 10px;
+}
+.container .display {
+  font-size: 2.5em;
+  color: #ab84a4;
+  padding: 10px;
+}
+.container label {
+  padding: 15px;
+  font-size: 1.3em;
+  font-style: italic;
+  color: #6093bf;
+}
+.container button {
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 10px;
+  background-color: #bf9d7e;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.container button:hover {
+  border: 1px solid #eef1f3;
+  background-color: #6093bf;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+}
